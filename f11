@@ -1,0 +1,12 @@
+Rearrange the commit order
+---------------------------
+git rebase -i HEAD~4
+
+
+Merge the commit's using "squash"
+--------------------------------
+git rebase -i HEAD~4
+Remove the pick word and replace it with squash
+
+git cheery-pick =
+
